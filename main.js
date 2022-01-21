@@ -21,7 +21,7 @@ let animations = {
     menuSlide: 1,
     menuFade: 1,
 };
-let colors = ["#ffffff" /* Real white */ , "#000000" /* Real black */ , "#f3f6fb" /* White */ , "#2F2C30" /* Black */, "#a3a7b0" /* Grey */, "#567d46" /* Dirt */] // TAKEN FROM KANONO BECAUSE IM TOO LAZY TO REMAKE MY ASSETS
+let colors = ["#ffffff" /* Real white */ , "#000000" /* Real black */ , "#f3f6fb" /* White */ , "#2F2C30" /* Black */, "#a3a7b0" /* Grey */, "#0f5d20" /* Dirt */] // TAKEN FROM KANONO BECAUSE IM TOO LAZY TO REMAKE MY ASSETS
 const util = {};
 util.fullScreenCanvas = function() {
     canvas.width = window.innerWidth * window.devicePixelRatio;
