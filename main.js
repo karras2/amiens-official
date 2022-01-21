@@ -109,7 +109,7 @@ const loop = function(){
       ctx.fillRect(0, 0, config.screenWidth, config.screenHeight);
       ctx.fillStyle = colors[0];
       let y = (animations.descriptionSlide - animations.descriptionSlideDown) * config.screenHeight;
-      util.drawText(ctx, "amiens.io", config.screenWidth / 2, config.screenHeight / 2 - y, 50);
+      util.drawText(ctx, "Loading...", config.screenWidth / 2, config.screenHeight / 2 - y, 50);
       ctx.fillStyle = colors[0];
       ctx.globalAlpha = animations.description;
       ctx.fillRect(0, 0, config.screenWidth, config.screenHeight);
@@ -134,8 +134,8 @@ const loop = function(){
       ctx.fillStyle = colors[0];
       animations.menuSlide = util.lerp(animations.menuSlide, 0, 0.05);
       let y = (animations.menuSlide) * config.screenHeight;
-      util.drawText(ctx, "Joining Room...", config.screenWidth / 2, config.screenHeight / 2 - y, 50);
-      util.drawText(ctx, "This may take a momment!", config.screenWidth / 2, config.screenHeight / 2 + 50 - y, 20);
+      util.drawText(ctx, "Loading entityconfig...", config.screenWidth / 2, config.screenHeight / 2 - y, 50);
+      util.drawText(ctx, "Please hand tight. This may take a momment!", config.screenWidth / 2, config.screenHeight / 2 + 50 - y, 20);
       animations.menuFade = util.lerp(animations.menuFade, 0, 0.1);
       ctx.fillStyle = colors[1];
       ctx.globalAlpha = animations.menuFade;
