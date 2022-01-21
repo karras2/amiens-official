@@ -109,7 +109,7 @@ const loop = function(){
       ctx.fillRect(0, 0, config.screenWidth, config.screenHeight);
       ctx.fillStyle = colors[0];
       let y = (animations.descriptionSlide - animations.descriptionSlideDown) * config.screenHeight;
-      util.drawText(ctx, "Connecting...", config.screenWidth / 2, config.screenHeight / 2 - y, 50);
+      util.drawText(ctx, "amiens.io", config.screenWidth / 2, config.screenHeight / 2 - y, 50);
       ctx.fillStyle = colors[0];
       ctx.globalAlpha = animations.description;
       ctx.fillRect(0, 0, config.screenWidth, config.screenHeight);
