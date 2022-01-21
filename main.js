@@ -4,7 +4,7 @@ canvas.oncontextmenu = function(e) {
     e.preventDefault();
 };
 const config = {
-    font: "Overpass",
+    font: "Montserrat",
     screenWidth: 0,
     screenHeight: 0,
     gameState: 0,
